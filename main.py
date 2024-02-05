@@ -1,8 +1,6 @@
 import os
 
-from parser.parser import selenium_parse
-
-# from text_addition.add_text import add_text
+from reddit_parser import reddit_parser
 
 if __name__ == "__main__":
-    selenium_parse()
+    reddit_parser.selenium_parse()

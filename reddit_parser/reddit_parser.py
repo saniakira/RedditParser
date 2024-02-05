@@ -44,6 +44,3 @@ def selenium_parse(path=os.getcwd(), count=5):
     driver.close()
     soup = BeautifulSoup(html, "lxml")
     parse(soup)
-
-
-selenium_parse()
